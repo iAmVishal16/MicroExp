@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D3A1F55F2B4F0D62005CFFA6 /* MicroExpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1F55E2B4F0D62005CFFA6 /* MicroExpApp.swift */; };
-		D3A1F5612B4F0D62005CFFA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1F5602B4F0D62005CFFA6 /* ContentView.swift */; };
+		D3A1F5612B4F0D62005CFFA6 /* MicroButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1F5602B4F0D62005CFFA6 /* MicroButton.swift */; };
 		D3A1F5632B4F0D64005CFFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A1F5622B4F0D64005CFFA6 /* Assets.xcassets */; };
 		D3A1F5662B4F0D64005CFFA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A1F5652B4F0D64005CFFA6 /* Preview Assets.xcassets */; };
+		D3A2EC152B51A666009B6701 /* SidePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A2EC142B51A665009B6701 /* SidePanel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D3A1F55B2B4F0D62005CFFA6 /* MicroExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A1F55E2B4F0D62005CFFA6 /* MicroExpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroExpApp.swift; sourceTree = "<group>"; };
-		D3A1F5602B4F0D62005CFFA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3A1F5602B4F0D62005CFFA6 /* MicroButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroButton.swift; sourceTree = "<group>"; };
 		D3A1F5622B4F0D64005CFFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A1F5652B4F0D64005CFFA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3A2EC142B51A665009B6701 /* SidePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				D3A1F55E2B4F0D62005CFFA6 /* MicroExpApp.swift */,
-				D3A1F5602B4F0D62005CFFA6 /* ContentView.swift */,
+				D3A1F5602B4F0D62005CFFA6 /* MicroButton.swift */,
+				D3A2EC142B51A665009B6701 /* SidePanel.swift */,
 				D3A1F5622B4F0D64005CFFA6 /* Assets.xcassets */,
 				D3A1F5642B4F0D64005CFFA6 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3A1F5612B4F0D62005CFFA6 /* ContentView.swift in Sources */,
+				D3A1F5612B4F0D62005CFFA6 /* MicroButton.swift in Sources */,
 				D3A1F55F2B4F0D62005CFFA6 /* MicroExpApp.swift in Sources */,
+				D3A2EC152B51A666009B6701 /* SidePanel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
