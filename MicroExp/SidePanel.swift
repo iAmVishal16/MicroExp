@@ -70,7 +70,7 @@ struct MainView: View {
                 ZStack {
                     MicroButton1(isSelected: $isPanelVisible)
                         .foregroundColor(toggleTheme ? .white : .black)
-                    .padding([.top, .trailing], 24)
+                    .padding([.top, .trailing], 28)
                 }
             }
 

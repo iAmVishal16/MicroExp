@@ -16,13 +16,13 @@ struct MicroButton1: View {
             ForEach(0..<2) { i in
                 ForEach(0..<2) { j in
                     Capsule()
-                        .frame(width: isSelected ? 30 : 10.0, height: 10)
+                        .frame(width: isSelected ? 20 : 10.0, height: 10)
                         .rotationEffect(.degrees(j == i ? 45 : -45))
-                        .offset(x: 20 * CGFloat(i),y: 20 * CGFloat(j))
+                        .offset(x: 12 * CGFloat(i),y: 12 * CGFloat(j))
                 }
             }
         }
-        .offset(x: -10, y: -10)
+        .offset(x: -5, y: -5)
         .rotationEffect(isSelected ? .degrees(0) : .degrees(90), anchor: .center)
     }
 }
