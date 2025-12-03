@@ -7,12 +7,12 @@ Exploring premium SwiftUI micro‑interactions for buttons, toggles, counters, a
 - **Heart Counter**  
   - File: `MicroExp/MicroExp/HeartCounterView.swift`  
   - Demo entry: `HeartCounterPreviewWrapper` (also available via `ContentView` list)
-  - **Gif placeholder**: *(add gif or screen recording link here)*
+  - **Preview**: 
 
 - **Soft Switch Toggle**  
   - File: `MicroExp/MicroExp/SoftSwitchToggle.swift`  
   - Demo entry: `SoftSwitchPreviewWrapper` (also available via `ContentView` list)
-  - **Gif placeholder**: *(add gif or screen recording link here)*
+  - **Preview**:
 
 ### App Entry
 
