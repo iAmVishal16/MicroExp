@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D382E0662EE03F4E00F139B2 /* SoftSwitchToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382E0652EE03F4E00F139B2 /* SoftSwitchToggle.swift */; };
+		D382E0682EE049C600F139B2 /* HeartCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382E0672EE049C600F139B2 /* HeartCounterView.swift */; };
+		D382E06A2EE0637E00F139B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382E0692EE0637D00F139B2 /* ContentView.swift */; };
 		D3A1F55F2B4F0D62005CFFA6 /* MicroExpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1F55E2B4F0D62005CFFA6 /* MicroExpApp.swift */; };
 		D3A1F5612B4F0D62005CFFA6 /* MicroButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A1F5602B4F0D62005CFFA6 /* MicroButton.swift */; };
 		D3A1F5632B4F0D64005CFFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A1F5622B4F0D64005CFFA6 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D382E0652EE03F4E00F139B2 /* SoftSwitchToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftSwitchToggle.swift; sourceTree = "<group>"; };
+		D382E0672EE049C600F139B2 /* HeartCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeartCounterView.swift; path = MicroExp/HeartCounterView.swift; sourceTree = "<group>"; };
+		D382E0692EE0637D00F139B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = MicroExp/ContentView.swift; sourceTree = "<group>"; };
 		D3A1F55B2B4F0D62005CFFA6 /* MicroExp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroExp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A1F55E2B4F0D62005CFFA6 /* MicroExpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroExpApp.swift; sourceTree = "<group>"; };
 		D3A1F5602B4F0D62005CFFA6 /* MicroButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroButton.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 		D3A1F55D2B4F0D62005CFFA6 /* MicroExp */ = {
 			isa = PBXGroup;
 			children = (
+				D382E0692EE0637D00F139B2 /* ContentView.swift */,
+				D382E0672EE049C600F139B2 /* HeartCounterView.swift */,
+				D382E0652EE03F4E00F139B2 /* SoftSwitchToggle.swift */,
 				D3A1F55E2B4F0D62005CFFA6 /* MicroExpApp.swift */,
 				D3A1F5602B4F0D62005CFFA6 /* MicroButton.swift */,
 				D3A2EC142B51A665009B6701 /* SidePanel.swift */,
@@ -141,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3A1F5612B4F0D62005CFFA6 /* MicroButton.swift in Sources */,
+				D382E0662EE03F4E00F139B2 /* SoftSwitchToggle.swift in Sources */,
+				D382E06A2EE0637E00F139B2 /* ContentView.swift in Sources */,
 				D3A1F55F2B4F0D62005CFFA6 /* MicroExpApp.swift in Sources */,
 				D3A2EC152B51A666009B6701 /* SidePanel.swift in Sources */,
+				D382E0682EE049C600F139B2 /* HeartCounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
