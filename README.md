@@ -7,7 +7,7 @@ This repository is a SwiftUI app (not a standalone framework), but the views/sty
 ### Requirements
 
 - Xcode: 15+ recommended
-- Platforms: iOS (haptics are iOS-only; visuals work anywhere SwiftUI runs)
+- Platforms: iOS 17.0+ (project deployment target). Haptics are iOS-only; visuals work anywhere SwiftUI runs.
 
 ### Run
 
@@ -65,6 +65,20 @@ struct ExampleHeartCounter: View {
 
 - `count` uses `.monospacedDigit()` and `.contentTransition(.numericText())` for smoother numeric changes.
 - Haptics are guarded with `#if os(iOS)`; other platforms silently skip haptics.
+
+**Supporting types (in the same file)**
+
+- `WingLeft` / `WingRight` (`Shape`): wing shapes used by the flying heart burst. These are regular `Shape`s, so you can also reuse them elsewhere.
+- `FlyingHeartView` is declared `private` to the file and is considered an implementation detail.
+
+Example reuse:
+
+```swift
+HStack(spacing: 16) {
+    WingLeft().fill(.white).frame(width: 32, height: 22)
+    WingRight().fill(.white).frame(width: 32, height: 22)
+}
+```
 
 ---
 
